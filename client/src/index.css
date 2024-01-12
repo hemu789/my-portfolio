@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@300&family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0a192f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #013f3c7f;
+}
+
+i{
+    cursor: pointer;
+
+}
+i:hover{
+    color: white;
+}
+
+/* loader animation  */
+
+.k{
+    animation: k 1s infinite;
+}
+
+@keyframes k{
+    0%{
+        opacity: 1;
+
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+
+.s {
+    animation: s 1s infinite;
+}
+
+@keyframes s {
+    0% {
+        opacity: 0.5;
+
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.r {
+    animation: r 1s infinite;
+}
+
+@keyframes r {
+    0% {
+        opacity: 0.5;
+
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
